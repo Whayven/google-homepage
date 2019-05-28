@@ -1,19 +1,28 @@
 * {
     -webkit-appearance: none;
+    font-family: Arial, sans-serif;
+    font-size: small;
 }
 
 
 
 body .center {
-    font-family: Arial, sans-serif;
-    font-size: small;
     text-align: center;
 }
 
 .nav a{
     text-decoration: none;
     color: black;
+}
+
+.left {
     text-align: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    padding-right: 15px;
 }
 
 header {
@@ -26,11 +35,10 @@ header img {
 }
 
 nav{
-    width: 100%;
     word-spacing: 1em;
     padding: 15px 0 0 15px;
     font-size: 13px;
-    opacity: 0.75;
+    opacity: 0.75; 
 }
 
 a:hover{
