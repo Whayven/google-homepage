@@ -1,0 +1,1 @@
+This is my first Odin Project... project.  The goal is to recreate the Google homepage with HTML and CSS.  It will be non-functioning, the entire goal is to practice markup and styling while also messing around with the DevTools.  This will be interesting.
