@@ -4,7 +4,11 @@
     font-size: small;
 }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
 
 body .center {
     text-align: center;
@@ -16,6 +20,7 @@ body .center {
 }
 
 .left {
+    float: left;
     text-align: left;
 }
 
@@ -88,4 +93,22 @@ form img{
     border: 1px solid #c6c6c6;
     color: black;
     background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #c6c6c6;
+}
+
+.fbar{
+    word-spacing: 2rem;
+    padding-left: 27px;
+    line-height: 35px;
+}
+
+.fbar a{
+    color: #5F6368;
 }
