@@ -28,7 +28,24 @@ body .center {
     float: right;
     text-align: right;
     padding-right: 15px;
+    margin-right: 90px;
 }
+
+.right img.app { 
+    height: 25px;
+    width: auto;
+    position: absolute;
+    margin-left: 20px;
+    top: 12px;
+}
+
+img.me {
+    position: absolute;
+    border-radius: 50%;
+    top: 9px;
+    margin-left: 53px;
+}
+
 
 header {
     padding-top: 109px;
